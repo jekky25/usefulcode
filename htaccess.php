@@ -7,3 +7,8 @@ RewriteBase /
 RewriteRule ^(.*)index\.php$ $1 [R=301,L]
 Redirect /index.html / 
 Redirect /index.htm /
+
+
+//Работа сайта через папку public для ларавел, чтобы не вносить настройки на сервере
+RewriteEngine On
+RewriteRule ^(.*)$ public/$1 [L] 

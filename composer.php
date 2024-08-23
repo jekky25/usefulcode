@@ -11,4 +11,4 @@ composer update -W
 composer-php8.1 install
 
 //Для хостинга бегет, новый композер от версии 2 и выше. При установке в папку и адпейте сайта с терминала из админки хостинга
-php8.1 ~/.local/bin/composer install
+php8.1 ~/.local/bin/composer install//установить ларавел на open server 6 после файлы из папки laravel_dev переместить в корень

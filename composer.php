@@ -1,6 +1,9 @@
 <?
 //composer команды
 
+//обновляем композер
+composer self-update
+
 //обновить ларавел с пакетами
 composer update -W
 

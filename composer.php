@@ -16,3 +16,6 @@ php8.1 ~/.local/bin/composer install
 
 //установить ларавел на open server 6 после файлы из папки laravel_dev переместить в корень
 composer create-project --prefer-dist laravel/laravel laravel_dev
+
+//устанавливаем ларавел на опен сервере
+composer create-project --prefer-dist laravel/laravel /

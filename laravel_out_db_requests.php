@@ -1,4 +1,5 @@
 <?php
+use DB;
 DB::enableQueryLog();
 
 

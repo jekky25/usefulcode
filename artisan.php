@@ -4,6 +4,9 @@
 //запуск тестов
 php artisan test
 
+//запуск одного теста по имени
+php artisan test --filter testName
+
 //просмотреть все маршруты
 php artisan route:list
 

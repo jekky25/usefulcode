@@ -11,3 +11,6 @@ docker-compose up -d
 
 //стоп докера (лучше стопить непосредственно из программы)
 docker-compose down
+
+//ребилд докера после изменения параметров
+docker-compose build

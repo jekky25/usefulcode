@@ -19,6 +19,24 @@ docker-compose build
 //запуск докера по названию контейнера
 docker run -d -p 80:80 docker/getting-started
 
+//остановить контейнер
+docker stop my_container
+
+//удалить контейнер
+docker rm my_container
+
+//удалить остановленные контейнеры
+docker container prune
+
+//удалить неиспользуемые образы
+docker image prune
+
+//удалить все неиспользуемое
+docker system prune
+
+//глубокая очистка
+docker system prune -a
+
 //список установленных убунт, где покаазана, какая из них используется по умолчанию
 wslconfig /list
 

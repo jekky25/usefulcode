@@ -11,5 +11,8 @@ https://beget.com/ru/kb/how-to/web-apps/node-js?_gl=1*12ozc0y*FPAU*NjI0MjQyMDIuM
 делается через терминал админпанели, в которой запускается докер контейнер. Потом работаем через него
 
 
+//установка json-server
+npm install json-server
+
 //запуск json server из консоли
 npx json-server --watch db.json --port 3001

@@ -22,3 +22,6 @@ composer create-project --prefer-dist laravel/laravel laravel_dev
 
 //устанавливаем ларавел на опен сервере
 composer create-project --prefer-dist laravel/laravel /
+
+//Проверка новых версий пакетов
+composer outdated

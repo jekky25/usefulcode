@@ -18,3 +18,6 @@ php artisan -V
 
 //Для хостинга бегет, запуск артисан из терминала
 php8.2 artisan migrate
+
+//Откатить миграцию на один
+php artisan migrate:rollback --step=1

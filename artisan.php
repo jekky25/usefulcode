@@ -4,6 +4,9 @@
 //запуск тестов
 php artisan test
 
+//запуск тестов с выводом процента покрытия
+php artisan test --coverage
+
 //запуск одного теста по имени
 php artisan test --filter testName
 

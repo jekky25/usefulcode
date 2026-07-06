@@ -16,3 +16,14 @@ npm install json-server
 
 //запуск json server из консоли
 npx json-server --watch db.json --port 3001
+
+
+//Устанавливаем туннель на OSP 6.5.1 чтобы видеть сайт из сети
+npm install -g localtunnel
+
+//потом выполняем
+lt --port 80 --local-host test.loc
+
+//где test.loc -- имя домена в OSP
+//после этого появится адрес внешнего домена примерно такого вида your url is: https://violet-glasses-wash.loca.lt
+// и еще возможно в project.ini нужно будет прописать server_aliases = 192.168.0.101, где server_aliases -- адрес компьютера в сети

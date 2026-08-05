@@ -19,6 +19,9 @@ docker-compose build
 //запуск докера по названию контейнера
 docker run -d -p 80:80 docker/getting-started
 
+//создать сеть
+docker network create netName
+
 //остановить контейнер
 docker stop my_container
 
